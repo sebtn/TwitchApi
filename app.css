@@ -1,0 +1,81 @@
+@import 'https://fonts.googleapis.com/css?family=Nova+Oval';
+body {
+  background:#0E0E0E;
+  font-family: 'Nova Oval', cursive;
+}
+.header{
+  color:#FF003F;
+  font-size:68px    
+}
+.author {
+  margin-top:1em;
+  margin-left:1em;
+/*   color:#FF003F; */
+}
+
+.user-box {
+  margin-top:1em;
+  padding: 1em;
+  min-height:5em;
+  border: 0px solid;
+}
+img {
+  width: 90px;
+  height:90px;
+  margin-right: 0.75em;
+}
+li {
+  display: inline-block;
+  margin: 1em;  
+}
+ul {
+  border: 1px solid;
+  padding: 1em;
+  margin-bottom: 0;
+
+}
+.online-bg {
+  background-color:#89E894;
+}
+.offline-bg {
+  background-color:#089DE3;
+}
+.clearfix {
+  clear:both;
+}
+.centered {
+  max-width:auto;
+  justify-content:center;
+  align-items:center;
+  padding:2em 7em 7em 7em;
+}  
+.btn {
+  height:auto;
+  width:8em;
+  color:white;
+  background-color:#FF003F;
+  border:solid 1px #FF003F;
+  font-size:20px;
+  border-radius:0px;
+  margin-bottom:.5em;
+  border:solid 1px;
+}
+.btn:hover {
+   background-color:#FF1A52;
+   color:white;
+}  
+.btn:focus {
+  color:white;
+  background-color:#FF1A52;
+  border:0px;
+  outline:none;
+}  
+a {
+  color: black;
+  font-style:bold;
+} 
+.user{
+  padding:1em;
+  max-width:auto;
+  border: 1px solid
+}
